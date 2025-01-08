@@ -6,6 +6,12 @@
   font-variation-settings:
     "wdth" 100;
 }
+.header{
+    background-image: url("../images/developer.png"),url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+
+}
 .text-color{
     color: #FD6E0A;
 }
@@ -34,6 +40,7 @@ nav ul{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    margin-left: 70px;
 }
 nav ul li{
     list-style: none;
@@ -47,6 +54,8 @@ nav li a{
 }
 .banner{
     display: flex;
+    justify-content: space-between;
+    margin: 0px 40px 0px 180px;
 }
 .banner-content{
     max-width: 580px;
