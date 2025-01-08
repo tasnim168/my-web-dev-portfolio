@@ -30,7 +30,7 @@
     color: white;
     font-size: 20px;
     border: none;
-    border-radius: 2px;
+    border-radius: 4px;
     padding: 18px 35px;
 }
 section-title{
@@ -138,4 +138,25 @@ main margin{
 }
 .experience-sub-title,.description{
     color: #757575;
+}
+footer{
+    padding: 130px;
+    display: flex;
+    justify-content: space-around;
+    gap: 100px;
+}
+.para{
+    width: auto;
+}
+#form-item{
+    display: block;
+    height: 40px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: auto;
+    border: none;
+}
+.footer-column{
+   width: 50%;
 }
